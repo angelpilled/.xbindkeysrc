@@ -43,6 +43,6 @@ Kikapcsolni a `killall -HUP xbindkeys` paranccsal kell, utána elindítod újra.
 Ugyanez a forráskód elérhető a fenti fájlban is.
 
 Használt források:
-+ https://www.oreilly.com/library/view/xlib-reference-manual/9780937175262/16\_appendix-h.html
++ https://www.oreilly.com/library/view/xlib-reference-manual/9780937175262/16_appendix-h.html
 + showkey
 + xbindkeys --multikeys
