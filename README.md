@@ -15,7 +15,7 @@ A repo-t nem muszáj leklónozni/letölteni, a kódot ki is lehet másolni!
 
 A szöveg, amit a konfig fájlban hozzáadtam:
 
-`
+```
 # Benagyítás (Win+ó)
 "sleep 0.1 && xdotool key Control_L+KP_Add"
 Mod4 + oacute
@@ -35,7 +35,7 @@ Mod4 + Alt + oacute
 # Minusz írása (Win+BalAlt+ü)
 "sleep 0.1 && xdotool key KP_Subtract"
 Mod4 + Alt + udiaeresis
-`
+```
 
 Miután az **.xbindkeysrc** fájlt módosítva lett, újra kell indítanod (ha még be futtatva volt)!
 Kikapcsolni a `killall -HUP xbindkeys` paranccsal kell, utána elindítod újra.
