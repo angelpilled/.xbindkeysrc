@@ -1,10 +1,12 @@
 # xbindkeysrc konfig
 
-[English notes] This repository was meant for hungarian keyboard layouts on Thinkpad X260 laptops running xbindkeys on Linux (might work on other models as well).
+**English notes** This repository was meant for hungarian keyboard layouts on Thinkpad X260 laptops running xbindkeys on Linux (might work on other models as well).
 
-Sziasztok! Ez a repo magyar Thinkpad X260 billentyűzetekre készült. Más Thinkpadokon nem tudtam tesztelni, de lehet, hogy működnek rajta is.
+Sziasztok! Ez a repo magyar Thinkpad X260 billentyűzetekre készült. Más Thinkpadokon nem tudtam tesztelni, de lehet, hogy működnek más numerikus nélküli billentyűzeteken.
 
-Szükséges csomag nyilván az **xbindkeys**.
+**Funkcionalitása: a konfigom hozzáad plusz, minusz, csillag, és kinagyítás/benagyítást billentyűzet kombinációkat. Alapból a kombinációk Windows gombot használnak, ha ebből nem tetszik bármi, meg tudod változtani (ajánlom a `showkey -a` és az `xbindkeys --multikey` parancsokat, valamint a linket a markdown legalján).**
+
+Szükséges csomagok az **xbindkeys** és az **xdotool**.
 A konfigurációs fájl a helyes telepítés után (.xbindkeysrc) a home (~/.xbindkeysrc) könyvtárban lesz elérhető.
 
 A repo-t nem muszáj leklónozni/letölteni, a kódot ki is lehet másolni!
